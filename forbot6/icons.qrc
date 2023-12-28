@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/arrow-down-3101.svg</file>
+        <file>icons/block_black_24dp.svg</file>
+        <file>icons/done_black_24dp.svg</file>
+        <file>icons/iconmonstr-arrow-up-thin.svg</file>
+    </qresource>
+</RCC>
