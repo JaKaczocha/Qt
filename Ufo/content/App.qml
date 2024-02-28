@@ -15,9 +15,12 @@ Window {
         id: mainScreen
 
         button1.onClicked: {
+
             parallel.anim.start();
             sequential.anim.start();
+
         }
+
 
     }
 
