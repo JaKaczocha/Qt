@@ -1,0 +1,16 @@
+import QmlProject 1.3
+
+Project {
+    MCU.Module {
+        uri: "CustomModule"
+        generateQmltypes: true
+    }
+
+    QmlFiles {
+        files: ["CustomButton.qml"]
+    }
+
+    ModuleFiles {
+        MCU.qulModules: ["Qul::ControlsTemplates"]
+    }
+}
